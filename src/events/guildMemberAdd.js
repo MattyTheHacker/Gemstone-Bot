@@ -6,6 +6,6 @@ module.exports = {
 		const role = member.guild.roles.cache.find(r => r.name === 'News');
 		member.roles.add(role);
 
-		console.log('News role assigned.');
+		console.log(`News role assigned to ${member.user.tag}`);
 	},
 };

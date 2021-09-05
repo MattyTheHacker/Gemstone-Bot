@@ -29,7 +29,3 @@ for (const file of commandFiles) {
 
 // Login to Discord with client's token
 client.login(token);
-
-client.on('guildMemberAdd', () => {
-	console.log('News role assigned.');
-});
